@@ -1,46 +1,55 @@
 class Solution {
-    private boolean isSafePlace(int n, char[][] nQueens, int row, int col) {
-        for (int i = 0; i < n; i++) {
-            if (nQueens[i][col] == 'Q') {
-                return false;
-            }
-        }
-        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
-            if (nQueens[i][j] == 'Q') {
-                return false;
-            }
-        }
-        for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++) {
-            if (nQueens[i][j] == 'Q') {
-                return false;
-            }
-        }
-        return true;
+    public List<List<String>> solveNQueens(int n) {
+     List<List<String>> ans=new ArrayList<>();
+     char [][]board=new char[n][n];
+     for(char ch[]:board){
+        Arrays.fill(ch,'.');
+     }
+     solve(0,board,ans,n);
+     return ans;   
     }
-    private void solveNQueens(int n, List<List<String>> output, char[][] nQueens, int row) {
-        if (row == n) {
-            List<String> solution = new ArrayList<>();
-            for (char[] rowArray : nQueens) {
-                solution.add(new String(rowArray));
+    public void solve(int col,char[][] board,List<List<String>> ans,int n){
+        if(col==n){
+            ArrayList<String> temp=new ArrayList<>();
+            for(char c[]:board){
+                StringBuilder sb=new StringBuilder();
+                for(char ch:c){
+                    sb.append(ch);
+                }
+                temp.add(sb.toString());
             }
-            output.add(solution);
+            ans.add(new ArrayList<>(temp));
             return;
         }
-        for (int col = 0; col < n; col++) {
-            if (isSafePlace(n, nQueens, row, col)) {
-                nQueens[row][col] = 'Q';
-                solveNQueens(n, output, nQueens, row + 1);
-                nQueens[row][col] = '.';
+        for(int row=0;row<n;row++){
+            if(isValid(row,col,board)){
+                board[row][col]='Q';
+                solve(col+1,board,ans,n);
+                board[row][col]='.';
             }
         }
     }
-    public List<List<String>> solveNQueens(int n) {
-        List<List<String>> output = new ArrayList<>();  
-        char[][] nQueens = new char[n][n]; 
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(nQueens[i], '.');
+    public boolean isValid(int row,int col,char[][] board){
+        int r=row;
+        int c=col;
+        while(r>=0&&c>=0){
+            if(board[r][c]=='Q')return false;
+            r--;
+            c--;
         }
-        solveNQueens(n, output, nQueens, 0); 
-        return output;
+        r=row;
+        c=col;
+        while(c>=0){
+            if(board[r][c]=='Q')return false;
+            c--;
+        }
+        r=row;
+        c=col;
+        while(r<board.length&&c>=0){
+            if(board[r][c]=='Q')return false;
+            r++;
+            c--;
+        }
+        return true;
     }
 }
