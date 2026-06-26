@@ -1,34 +1,43 @@
 class Solution {
-    public boolean exist(char[][] board, String word) {
 
-        char arr[] = word.toCharArray();
-        Arrays.sort(arr);
+    public boolean exist(char[][] board, String word) {
 
         int rows = board.length;
         int cols = board[0].length;
 
-        char arr1[] = new char[rows * cols];
-
-        int k = 0;
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                arr1[k++] = board[i][j];
+
+                if (dfs(board, word, i, j, 0))
+                    return true;
             }
         }
 
-        Arrays.sort(arr1);
+        return false;
+    }
 
-        int count = 0;
-        int j = 0;
+    private boolean dfs(char[][] board, String word, int i, int j, int index) {
 
-        for (int i = 0; i < arr1.length && j < arr.length; i++) {
-            if (arr1[i] == arr[j]) {
-                count++;
-                j++;
-            }
-        }
+        if (index == word.length())
+            return true;
 
-        if(count==word.length()) return true; 
-        else return false; 
+        if (i < 0 || j < 0 || i >= board.length || j >= board[0].length)
+            return false;
+
+        if (board[i][j] != word.charAt(index))
+            return false;
+
+        char temp = board[i][j];
+        board[i][j] = '#';
+
+        boolean found =
+                dfs(board, word, i + 1, j, index + 1) ||
+                dfs(board, word, i - 1, j, index + 1) ||
+                dfs(board, word, i, j + 1, index + 1) ||
+                dfs(board, word, i, j - 1, index + 1);
+
+        board[i][j] = temp;
+
+        return found;
     }
 }
