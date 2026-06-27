@@ -1,12 +1,12 @@
 class Solution {
     public int minStartValue(int[] nums) {
-        int j=1;
-        for(int i=0;i<nums.length;i++){
-          if(j+nums[i]<=1){
-            j++;
-            i=0;
-          }
+        int minPrefix=0;
+        int prefixsum=0;
+        for(int num:nums){
+         prefixsum+=num;
+        minPrefix = Math.min(minPrefix,prefixsum);
+
         }
-        return j;
+        return 1-minPrefix;
     }
 }
