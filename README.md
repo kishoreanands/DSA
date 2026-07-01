@@ -93,6 +93,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 29 | [Divide Two Integers](./Math/Divide%20Two%20Integers/) | Medium |
+| 43 | [Multiply Strings](./Math/Multiply%20Strings/) | Medium |
 
 </details>
 
