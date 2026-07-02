@@ -19,6 +19,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
+| 11 | [Container With Most Water](./Array/Container%20With%20Most%20Water/) | Medium |
 | 51 | [N-Queens](./Array/N-Queens/) | Hard |
 | 79 | [Word Search](./Array/Word%20Search/) | Medium |
 | 88 | [Merge Sorted Array](./Array/Merge%20Sorted%20Array/) | Easy |
