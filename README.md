@@ -49,6 +49,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 184 | [Department Highest Salary](./Database/Department%20Highest%20Salary/) | Medium |
 | 196 | [Delete Duplicate Emails](./Database/Delete%20Duplicate%20Emails/) | Easy |
 | 197 | [Rising Temperature](./Database/Rising%20Temperature/) | Easy |
+| 570 | [Managers with at Least 5 Direct Reports](./Database/Managers%20with%20at%20Least%205%20Direct%20Reports/) | Medium |
 | 584 | [Find Customer Referee](./Database/Find%20Customer%20Referee/) | Easy |
 | 586 | [Customer Placing the Largest Number of Orders](./Database/Customer%20Placing%20the%20Largest%20Number%20of%20Orders/) | Easy |
 | 595 | [Big Countries](./Database/Big%20Countries/) | Easy |
