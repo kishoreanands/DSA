@@ -33,7 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Actors and Directors Who Cooperated At Least Three Times](./General/Actors%20and%20Directors%20Who%20Cooperated%20At%20Least%20Three%20Times/) | Medium |
+| — | [Queries Quality and Percentage](./General/Queries%20Quality%20and%20Percentage/) | Medium |
 
 </details>
 
