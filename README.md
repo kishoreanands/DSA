@@ -33,7 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Queries Quality and Percentage](./General/Queries%20Quality%20and%20Percentage/) | Medium |
+| — | [Project Employees I](./General/Project%20Employees%20I/) | Medium |
 
 </details>
 
