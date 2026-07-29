@@ -33,7 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Search a 2D Matrix](./General/Search%20a%202D%20Matrix/) | Medium |
+| — | [Sum of Two Integers](./General/Sum%20of%20Two%20Integers/) | Medium |
 
 </details>
 
