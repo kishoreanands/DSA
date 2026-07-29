@@ -33,7 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Sales Analysis III](./General/Sales%20Analysis%20III/) | Medium |
+| — | [Department Top Three Salaries](./General/Department%20Top%20Three%20Salaries/) | Medium |
 
 </details>
 
