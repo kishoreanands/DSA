@@ -33,7 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Climbing Stairs](./General/Climbing%20Stairs/) | Medium |
+| — | [Find the Index of the First Occurrence in a String](./General/Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/) | Medium |
 
 </details>
 
