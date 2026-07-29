@@ -33,7 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [4Sum](./General/4Sum/) | Medium |
+| — | [Remove Duplicates from Sorted Array II](./General/Remove%20Duplicates%20from%20Sorted%20Array%20II/) | Medium |
 
 </details>
 
