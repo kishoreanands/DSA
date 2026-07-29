@@ -33,7 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Convert Date to Binary](./General/Convert%20Date%20to%20Binary/) | Medium |
+| — | [Sales Analysis III](./General/Sales%20Analysis%20III/) | Medium |
 
 </details>
 
