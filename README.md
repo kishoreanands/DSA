@@ -33,7 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Sqrt(x)](./General/Sqrt(x)/) | Medium |
+| — | [Climbing Stairs](./General/Climbing%20Stairs/) | Medium |
 
 </details>
 
