@@ -33,7 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Sum of Two Integers](./General/Sum%20of%20Two%20Integers/) | Medium |
+| — | [4Sum](./General/4Sum/) | Medium |
 
 </details>
 
