@@ -33,7 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Sort Colors](./General/Sort%20Colors/) | Medium |
+| — | [Search a 2D Matrix](./General/Search%20a%202D%20Matrix/) | Medium |
 
 </details>
 
