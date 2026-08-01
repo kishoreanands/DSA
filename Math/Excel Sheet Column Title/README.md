@@ -5,50 +5,61 @@
 
 ## Problem Statement
 
-<p>Given an integer <code>columnNumber</code>, return <em>its corresponding column title as it appears in an Excel sheet</em>.</p>
+Given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
 
-<p>For example:</p>
+For example:
 
-<pre>
-A -&gt; 1
-B -&gt; 2
-C -&gt; 3
+A -> 1
+B -> 2
+C -> 3
 ...
-Z -&gt; 26
-AA -&gt; 27
-AB -&gt; 28 
+Z -> 26
+AA -> 27
+AB -> 28 
 ...
-</pre>
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
 
-<pre>
-<strong>Input:</strong> columnNumber = 1
-<strong>Output:</strong> &quot;A&quot;
-</pre>
+ 
+Example 1:
 
-<p><strong class="example">Example 2:</strong></p>
+Input: columnNumber = 1
+Output: "A"
 
-<pre>
-<strong>Input:</strong> columnNumber = 28
-<strong>Output:</strong> &quot;AB&quot;
-</pre>
 
-<p><strong class="example">Example 3:</strong></p>
+Example 2:
 
-<pre>
-<strong>Input:</strong> columnNumber = 701
-<strong>Output:</strong> &quot;ZY&quot;
-</pre>
+Input: columnNumber = 28
+Output: "AB"
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
 
-<ul>
-	<li><code>1 &lt;= columnNumber &lt;= 2<sup>31</sup> - 1</code></li>
-</ul>
+Example 3:
 
+Input: columnNumber = 701
+Output: "ZY"
+
+
+ 
+Constraints:
+
+
+	1 <= columnNumber <= 231 - 1
+
+## Examples
+
+```
+Input: columnNumber = 1
+Output: "A"
+
+Input: columnNumber = 28
+Output: "AB"
+
+Input: columnNumber = 701
+Output: "ZY"
+```
+
+## Constraints
+
+- 1 <= columnNumber <= 231 - 1
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
