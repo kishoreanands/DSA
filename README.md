@@ -74,6 +74,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 405 | [Convert a Number to Hexadecimal](./Math/Convert%20a%20Number%20to%20Hexadecimal/) | Easy |
 | 415 | [Add Strings](./Math/Add%20Strings/) | Easy |
 | 441 | [Arranging Coins](./Math/Arranging%20Coins/) | Easy |
+| 504 | [Base 7](./Math/Base%207/) | Easy |
 
 </details>
 
