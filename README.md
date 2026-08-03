@@ -88,6 +88,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 </details>
 
 
+### Two Pointers
+<details>
+<summary>Click to expand Two Pointers problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 392 | [Is Subsequence](./Two%20Pointers/Is%20Subsequence/) | Easy |
+
+</details>
+
+
 <p align="center">
 Building Technical Excellence Through Consistent Problem Solving.
 </p>
