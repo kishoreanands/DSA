@@ -5,6 +5,9 @@ class Solution {
       for(int i=0;i<t.length();i++){
         if(s.charAt(k)==t.charAt(i)){
             k++;
+            if(k>=s.length()){
+                break;
+            }
         }
       }
       boolean bool=false;
